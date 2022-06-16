@@ -1,0 +1,233 @@
+body {
+
+    background-image: url("../img/halloween2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+
+    background: black;
+    display: flex;
+    padding-top: 1em;
+    opacity: 85%;
+
+}
+
+header img {
+
+    margin-top: 0.5em;
+    margin-left: 3em;
+    height: 4em;
+    filter: invert(75%) sepia(61%) saturate(4774%) hue-rotate(355deg) brightness(100%) contrast(50%);
+}
+
+p {
+    color: white;
+}
+
+h1 {
+
+    color: white;
+    font-family: 'Griffy', cursive;
+    font-size: 3em;
+    margin-top: 15px;
+    margin-left: 50px;
+    letter-spacing: 10px;
+    color: brown;
+}
+
+footer {
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 19%, rgba(244, 139, 59, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+    width: 97vw;
+    margin-top: 120vh;
+    opacity: 70%;
+    box-shadow: -1px -24px 48px 29px #dc4222;
+    -webkit-box-shadow: -1px -24px 48px 29px #F48B3BFF;
+    -moz-box-shadow: -1px -24px 48px 29px #F48B3BFF;
+
+}
+
+footer div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bi {
+
+    font-size: 3em;
+    color: black;
+    padding: 10px;
+
+
+}
+
+.bi:hover {
+    color: rgba(260, 63, 34, 1);
+}
+
+main {
+    display: flex;
+
+    justify-content: center;
+    position: absolute;
+    width: 99vw;
+    height: 100vh;
+
+}
+
+.caja {
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 40vw;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 10vh;
+    border-radius: 10px;
+    visibility: hidden;
+
+}
+
+.botones {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 11px 3px rgba(220, 66, 34, 1);
+    padding: 10px;
+    width: 15vw;
+    height: 20vh;
+    margin-top: 35vh;
+    margin-left: 85vh;
+    font-family: 'Griffy', cursive;
+    letter-spacing: 5px;
+
+}
+
+.botones:hover {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+
+}
+
+.botonesCaja {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.letrasBuenas {
+
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Griffy', cursive;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.letrasMalas {
+
+    padding: 20px;
+    font-family: 'Griffy', cursive;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.botonesJuego {
+
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Griffy', cursive;
+    background-color: rgba(260, 63, 34, 1);
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    border: 0;
+}
+
+.botonesJuego:hover {
+
+    background-color: rgba(244, 139, 59, 0.5);
+    color: black;
+    border: 0;
+}
+
+.dibujo {
+
+    display: flex;
+    flex: 5;
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imagen {
+    width: 95%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10vw 0px;
+
+    text-align : center;
+    font-size : 100px;
+    font-family :'Griffy', cursive;
+    color : rgba(260,63,34,1)
+}
+
+.volumen {
+
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    background-color: black;
+    margin-bottom: 20px;
+
+}
+
+.volumen .bi {
+
+    color: black;
+    background-color: brown;
+    border-radius: 10px;
+
+}
+
+.volumen .bi:hover {
+
+    color: white;
+
+}
+
+button {
+
+    cursor: pointer;
+
+}
+
+#apagado {
+
+    display: none;
+
+}
+
+
